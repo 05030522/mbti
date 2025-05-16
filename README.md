@@ -1,12 +1,52 @@
-# React + Vite
+# MBTI 기반 수익 창출 웹사이트
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🔍 개요
 
-Currently, two official plugins are available:
+이 프로젝트는 MBTI 성격유형을 기반으로 다양한 정보, 콘텐츠, 맞춤 추천 등을 제공하는 웹사이트입니다. 사용자가 자신의 MBTI 유형을 바탕으로 자신에게 맞는 상품, 콘텐츠, 성향 분석 결과 등을 확인할 수 있습니다.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 주요 기능
+- MBTI 유형 선택 또는 테스트
+- 유형별 맞춤 콘텐츠 제공 (예: 성향 분석, 추천 상품, 직업 정보 등)
+- 사용자 반응 기반 피드백 기능 (좋아요, 댓글 등)
+- 향후 가입/로그인 기능 및 개인화 기능 도입 예정
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 💰 수익 모델
+
+### 1단계: 초기 광고 수익
+- **Google AdSense**: 페이지 내에 텍스트, 배너 광고 등을 배치하여 조회수 및 클릭을 통한 광고 수익 확보
+- **쿠팡 파트너스**: MBTI 유형별 맞춤 상품을 쿠팡 링크로 연결하여, 사용자가 해당 상품을 구매하면 일정 수수료를 통해 수익 창출
+
+### 2단계: 구독 및 프리미엄 모델
+- **회원 가입 기능** 도입 예정 (이메일 또는 소셜 로그인)
+- **프리미엄 콘텐츠**: 심화 분석 리포트, 연애/직업/성격 맞춤 코칭, 유형 궁합 시뮬레이션 등
+- **월 구독 모델**: 프리미엄 기능 접근을 위한 유료 구독 서비스 계획
+
+---
+
+## 🛠 기술 스택
+
+- React
+- Javascript
+- cloudflare
+- AWS
+- Google Analytics
+
+---
+
+## 📌 향후 계획
+
+- 사용자 로그인 및 개인정보 기반 추천 알고리즘 도입
+- 사용자 피드백 수집을 통한 콘텐츠 개선
+- SNS 공유 기능 추가
+- 모바일 대응 최적화
+
+---
+
+## 👨‍💻 기여 및 피드백
+
+현재 개인 개발 중이지만, 관심 있는 분들의 피드백이나 제안은 언제나 환영합니다. 이 프로젝트가 더 유익한 방향으로 발전할 수 있도록 아래의 메일 주소로 많은 의견 부탁드립니다.
+
+**kjinhx05@naver.com**
+
